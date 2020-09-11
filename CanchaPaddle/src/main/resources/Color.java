@@ -11,6 +11,7 @@ public class Color {
 	    private Long codigo;
 
 	    
+	    
 	    private String descripcion;
 
 }
