@@ -5,22 +5,16 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Paletas")
+@Table(name = "Constructores")
 
-public class Paletas {
+public class Constructores {
+ 
 	@Id
 	@GeneratedValue
-	private Long cod_Paleta;
+	private Long cod_Constructor;
 	
 	private String nombre;
-	private float grosor;
-	
-	@ManyToOne
-	private Colores cod_Color;
-	
-	@ManyToOne
-	
-	private Constructores cod_Constructor;
+	private String domicilio;
 	
 	
 }

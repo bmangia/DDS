@@ -7,7 +7,9 @@
 
     <persistence-unit name="db" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>Color</class>
+        <class>Colores</class>
+        <class>Paletas</class>
+        <class>Constructores</class>
     <!--    <class>utn.dds.persistencia.futbol.persistence.Equipo</class>
         <class>utn.dds.persistencia.futbol.persistence.Formacion</class>
         <class>utn.dds.persistencia.futbol.persistence.Partido</class>-->

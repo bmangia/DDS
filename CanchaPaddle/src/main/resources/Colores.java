@@ -5,10 +5,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Colores")
-public class Color {
+public class Colores {
 	    @Id
 	    @GeneratedValue
-	    private Long codigo;
+	    private Long cod_Color;
 
 	    
 	    
