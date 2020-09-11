@@ -10,6 +10,9 @@
         <class>Colores</class>
         <class>Paletas</class>
         <class>Constructores</class>
+          <class>Jugadores</class>
+        
+        
     <!--    <class>utn.dds.persistencia.futbol.persistence.Equipo</class>
         <class>utn.dds.persistencia.futbol.persistence.Formacion</class>
         <class>utn.dds.persistencia.futbol.persistence.Partido</class>-->

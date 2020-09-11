@@ -14,6 +14,7 @@ public class Jugadores {
     private Long cod_Jugador;
 	@ManyToOne
     private Paletas paleta;
+
 	
     private String nombre;
     
@@ -24,5 +25,6 @@ public class Jugadores {
     private int  nacimiento;
     private String telefono;
 
+    
     
 }
