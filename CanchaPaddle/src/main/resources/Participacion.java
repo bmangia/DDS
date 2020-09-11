@@ -18,7 +18,7 @@ public class Participacion {
 	 private Paletas cod_Paleta;
 
 	    
-
+    
 	@ManyToOne
 	private Jugadores cod_jugador;
 	
